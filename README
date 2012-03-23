@@ -1,0 +1,9 @@
+r1 takes a lot of time to run, I reduced the number of functions
+
+./bench.sh to run the benchmark
+
+results.log 
+	running time
+
+errors.log 
+	errors
