@@ -1,33 +1,16 @@
 r01_1.sage
  
 r01_2.sage
-sys:1: DeprecationWarning: The new (Pynac) symbolics are now the only symbolics; please do not use keyword 'ns' any longer.
-Traceback (most recent call last):
-  File "r01_2.py", line 6, in <module>
-    i = S(NumberField(polygen(QQ)**_sage_const_2 +_sage_const_1 , 'i').gen())
-  File "parent.pyx", line 988, in sage.structure.parent.Parent.__call__ (sage/structure/parent.c:7355)
-  File "coerce_maps.pyx", line 156, in sage.structure.coerce_maps.NamedConvertMap._call_ (sage/structure/coerce_maps.c:4265)
-  File "number_field_element.pyx", line 2052, in sage.rings.number_field.number_field_element.NumberFieldElement._symbolic_ (sage/rings/number_field/number_field_element.cpp:14771)
-TypeError: An embedding into RR or CC must be specified.
  
 r01_3.sage
-Traceback (most recent call last):
-  File "r01_3.py", line 6, in <module>
-    __time__=misc.cputime(); __wall__=misc.walltime(); e = f(f(f(f(f(f(f(f(f(f(I/_sage_const_2 )))))))))).as_real_imag()[int(_sage_const_0 )]; print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
-AttributeError: 'module' object has no attribute 'cputime'
  
 r02_1.sage
  
 r02_2.sage
-sys:1: DeprecationWarning: The new (Pynac) symbolics are now the only symbolics; please do not use keyword 'ns' any longer.
  
 r02_3.sage
  
 r02_4.sage
-Traceback (most recent call last):
-  File "r02_4.py", line 10, in <module>
-    __time__=misc.cputime(); __wall__=misc.walltime(); v = hermite(_sage_const_15 ,var('y')); print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
-AttributeError: 'module' object has no attribute 'cputime'
  
 r03.sage
  
@@ -66,17 +49,17 @@ s02_2.sage
 Traceback (most recent call last):
   File "s02_2.py", line 3, in <module>
     __time__=misc.cputime(); __wall__=misc.walltime(); mathematica.eval('Timing[a = Expand[(x^Sin[x] +y^Cos[y] - z^(x+y))^100];]'); print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/mathematica.py", line 491, in eval
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/mathematica.py", line 491, in eval
     s = Expect.eval(self, code, **kwds)
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/expect.py", line 1035, in eval
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 1240, in eval
     return self._eval_line_using_file(code)
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/expect.py", line 646, in _eval_line_using_file
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 731, in _eval_line_using_file
     F = open(self._local_tmpfile(), 'w')
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/expect.py", line 591, in _local_tmpfile
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 627, in _local_tmpfile
     self.__local_tmpfile = '%s/tmp'%SAGE_TMP_INTERFACE + str(self.pid())
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/expect.py", line 319, in pid
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 346, in pid
     self._start()
-  File "/home/ty/Downloads/sage-4.8/local/lib/python2.6/site-packages/sage/interfaces/expect.py", line 443, in _start
+  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 479, in _start
     self.name(), cmd, self._install_hints())
 RuntimeError: Unable to start mathematica because the command 'math' failed.
 

@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+trap 'exit' 2
 RESULTS="results.log"
 ERRORS="errors.log"
 rm $RESULTS 

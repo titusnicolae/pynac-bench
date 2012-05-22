@@ -3,4 +3,4 @@ def hermite(n,y):
   if n == 0: return 1
   return expand(2*y*hermite(n-1,y) - 2*(n-1)*hermite(n-2,y))
 
-time hermite(15,var('y',ns=1))
+time hermite(15,var('y'))

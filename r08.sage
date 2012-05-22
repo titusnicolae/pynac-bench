@@ -5,5 +5,5 @@ def right(f,a,b,n):
        est += f(c)
    return est*Deltax
 
-var('x')
+x=var('x')
 time v = right(x^2,0,5,10^4)
