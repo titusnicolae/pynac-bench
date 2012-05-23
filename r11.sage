@@ -1,1 +1,1 @@
-a = [random() + random()*I for w in [0..1000]]
+time a = [random() + random()*I for w in [0..1000]]

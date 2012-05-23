@@ -1,9 +1,14 @@
-r1 takes a lot of time to run, I reduced the number of functions
+benchmarks are from http://wiki.sagemath.org/symbench
 
-./bench.sh to run the benchmark
+-- SETUP --
+to call sage from the bench.sh program, it has to be in the $PATH variable
+set PATH="path/where/sage/program/is/installed:$PATH" in .profile file in your home directory
 
-results.log 
-	running time
 
-errors.log 
-	errors
+-- RUNNING BENCHMARK --
+./bench.sh 
+
+
+-- OUTPUT --
+results.log - running time
+errors.log  - errors

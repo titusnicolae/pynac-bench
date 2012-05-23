@@ -25,11 +25,8 @@ r05_2.sage
 r06.sage
  
 r07.sage
-sys:1: DeprecationWarning: Substitution using function-call syntax and unnamed arguments is deprecated and will be removed from a future release of Sage; you can use named arguments instead, like EXPR(x=..., y=...)
  
 r08.sage
-r08.py:12: DeprecationWarning: Substitution using function-call syntax and unnamed arguments is deprecated and will be removed from a future release of Sage; you can use named arguments instead, like EXPR(x=..., y=...)
-  __time__=misc.cputime(); __wall__=misc.walltime(); v = right(x**_sage_const_2 ,_sage_const_0 ,_sage_const_5 ,_sage_const_10 **_sage_const_4 ); print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
  
 r09.sage
  
@@ -40,67 +37,11 @@ r11.sage
 s01.sage
  
 s02_1.sage
-Traceback (most recent call last):
-  File "s02_1.py", line 4, in <module>
-    __time__=misc.cputime(); __wall__=misc.walltime(); a = expand((x**sin(x) + y**cos(y) - z**(x+y))**_sage_const_100 ); print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
-NameError: name 'y' is not defined
  
-s02_2.sage
-Traceback (most recent call last):
-  File "s02_2.py", line 3, in <module>
-    __time__=misc.cputime(); __wall__=misc.walltime(); mathematica.eval('Timing[a = Expand[(x^Sin[x] +y^Cos[y] - z^(x+y))^100];]'); print "Time: CPU %.2f s, Wall: %.2f s"%(misc.cputime(__time__), misc.walltime(__wall__))
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/mathematica.py", line 491, in eval
-    s = Expect.eval(self, code, **kwds)
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 1240, in eval
-    return self._eval_line_using_file(code)
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 731, in _eval_line_using_file
-    F = open(self._local_tmpfile(), 'w')
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 627, in _local_tmpfile
-    self.__local_tmpfile = '%s/tmp'%SAGE_TMP_INTERFACE + str(self.pid())
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 346, in pid
-    self._start()
-  File "/home/titusn/sage-5.0.beta14/local/lib/python2.7/site-packages/sage/interfaces/expect.py", line 479, in _start
-    self.name(), cmd, self._install_hints())
-RuntimeError: Unable to start mathematica because the command 'math' failed.
-
-In order to use the Mathematica interface you need to have Mathematica
-installed and have a script in your PATH called "math" that runs the
-command-line version of Mathematica. Alternatively, you could use a
-remote connection to a server running Mathematica -- for hints, type
-    print mathematica._install_hints_ssh()
-
-
-  (1) You might have to buy Mathematica (http://www.wolfram.com/).
-      
-  (2) * LINUX: The math script comes standard with your Mathematica install.
-
-      * APPLE OS X:
-          (a) create a file called math (in your PATH):
-              #!/bin/sh
-              /Applications/Mathematica\ 5.2.app/Contents/MacOS/MathKernel $@
-
-          Note that the 5.2 part will depend on the version of
-          Mathematica you have, and the above path could be different
-          if you installed mathematica elsewhere.
-          
-          (b) Make the file executable. 
-                chmod +x math
-
-      * WINDOWS:
-      
-        Install Mathematica for Linux into the VMware virtual machine (sorry,
-        that's the only way at present). 
-
+s03_1.sage
  
-s02_4.sage
-Traceback (most recent call last):
-  File "s02_4.py", line 3, in <module>
-    import sympycore
-ImportError: No module named sympycore
+s03_2.sage
  
-s03.sage
-Traceback (most recent call last):
-  File "s03.py", line 3, in <module>
-    ZZZ
-NameError: name 'ZZZ' is not defined
+s03_3.sage
  
+s03_4.sage
