@@ -9,7 +9,6 @@ do
 	echo $x
 	echo $x >> $RESULTS
 	echo $x >> $ERRORS 
-#	cat $x >> $RESULTS 
 	sage $x 1>> $RESULTS 2>> $ERRORS 
 	echo " " >> $RESULTS
 	echo " " >> $ERRORS

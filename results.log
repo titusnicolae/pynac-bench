@@ -1,70 +1,96 @@
 r01_1.sage
-Time: CPU 66.86 s, Wall: 67.07 s
+Time: CPU 96.21 s, Wall: 97.89 s
  
 r01_2.sage
-Time: CPU 0.08 s, Wall: 0.47 s
+Time: CPU 0.13 s, Wall: 0.14 s
  
 r01_3.sage
-Time: CPU 0.02 s, Wall: 0.02 s
+Time: CPU 0.02 s, Wall: 0.03 s
  
 r02_1.sage
-Time: CPU 0.32 s, Wall: 0.32 s
+Time: CPU 0.30 s, Wall: 0.30 s
  
 r02_2.sage
-Time: CPU 0.28 s, Wall: 0.28 s
+Time: CPU 0.31 s, Wall: 0.32 s
  
 r02_3.sage
-Time: CPU 0.90 s, Wall: 1.40 s
+Time: CPU 1.20 s, Wall: 1.22 s
  
 r02_4.sage
-Time: CPU 2.78 s, Wall: 2.81 s
+Time: CPU 4.42 s, Wall: 4.52 s
  
 r03.sage
 Time: CPU 0.00 s, Wall: 0.00 s
  
 r04_1.sage
-Time: CPU 0.01 s, Wall: 0.38 s
+Time: CPU 0.02 s, Wall: 0.15 s
  
 r04_2.sage
-Time: CPU 0.01 s, Wall: 0.08 s
+Time: CPU 0.02 s, Wall: 0.14 s
  
 r05_1.sage
-Time: CPU 0.08 s, Wall: 0.08 s
+Time: CPU 0.05 s, Wall: 0.05 s
  
 r05_2.sage
-Time: CPU 0.03 s, Wall: 0.03 s
+Time: CPU 0.06 s, Wall: 0.06 s
  
 r06.sage
-Time: CPU 1.20 s, Wall: 1.20 s
+Time: CPU 1.44 s, Wall: 1.47 s
  
 r07.sage
-Time: CPU 1.83 s, Wall: 1.83 s
+Time: CPU 1.98 s, Wall: 2.02 s
  
 r08.sage
-Time: CPU 0.87 s, Wall: 0.87 s
+Time: CPU 1.08 s, Wall: 1.10 s
  
 r09.sage
-Time: CPU 1.49 s, Wall: 1.49 s
+Time: CPU 3.10 s, Wall: 3.16 s
  
 r10.sage
 Time: CPU 0.00 s, Wall: 0.00 s
  
 r11.sage
-Time: CPU 0.51 s, Wall: 0.51 s
+Time: CPU 0.76 s, Wall: 0.77 s
  
 s01.sage
-Time: CPU 0.22 s, Wall: 0.22 s
+Time: CPU 0.12 s, Wall: 0.12 s
  
 s02_1.sage
-Time: CPU 0.28 s, Wall: 0.28 s
+Time: CPU 0.16 s, Wall: 0.16 s
  
 s03_1.sage
-Time: CPU 0.06 s, Wall: 0.06 s
+Time: CPU 0.04 s, Wall: 0.04 s
  
 s03_2.sage
-Time: CPU 0.18 s, Wall: 0.18 s
+Time: CPU 0.09 s, Wall: 0.09 s
  
 s03_3.sage
-Time: CPU 7.58 s, Wall: 7.59 s
+Time: CPU 4.50 s, Wall: 4.57 s
  
 s03_4.sage
+Time: CPU 11.12 s, Wall: 11.64 s
+ 
+s03_5.sage
+Time: CPU 4.33 s, Wall: 4.40 s
+ 
+s03_6.sage
+Time: CPU 10.84 s, Wall: 11.01 s
+ 
+s03_7.sage
+Time: CPU 0.01 s, Wall: 10.14 s
+ 
+s03_8.sage
+Time: CPU 1.70 s, Wall: 1.73 s
+ 
+s03_9.sage
+Time: CPU 1.61 s, Wall: 1.64 s
+ 
+s04_1.sage
+Time: CPU 72.39 s, Wall: 73.73 s
+ 
+s04_2.sage
+Time: CPU 11.77 s, Wall: 11.94 s
+ 
+s04_3.sage
+Time: CPU 0.00 s, Wall: 15.68 s
+ 
